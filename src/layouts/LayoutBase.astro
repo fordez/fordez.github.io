@@ -1,0 +1,30 @@
+---
+import Footer from "../components/Footer.astro";
+
+const { title } = Astro.props
+---
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>AI Developer | Chatbot, Assistant, Agents | With ChatGPT API & SERVERLESS CLOUD SOLUTIONS</title>
+      <link rel="stylesheet" href="styles.css">
+	</head>
+  <body>
+    <header>
+      <nav>
+          <ul>
+              <li><a href="/">Home</a></li>
+              <li><a href="/repositorio">Repository</a></li>
+              <li><a href="/skills">Blog</a></li>
+              <li><a href="/chat">Queries</a></li>
+          </ul>
+      </nav>
+  </header>
+  <slot/> 
+  <Footer/>
+  </body>
+</html>

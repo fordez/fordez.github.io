@@ -1,33 +1,12 @@
 ---
+import LayoutBase from "../layouts/LayoutBase.astro";
 
 ---
-<!DOCTYPE html>
-<html lang="es">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>AI Developer | Chatbot, Assistant, Task Automation | With ChatGPT API SERVERLESS CLOUD SOLUTIONS</title>
-      <link rel="stylesheet" href="styles.css">
-	</head>
-  <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#about">Inicio</a></li>
-                <li><a href="#services">Repositorio</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#contact">Chat</a></li>
-            </ul>
-        </nav>
-    </header>
-    <h1>AI Developer | Chatbot, Assistant, Data Agents | With ChatGPT API </h1>
-    <h2>SERVERLESS CLOUD SOLUTIONS</h2>
-       <h3> Transforming Data in Experiences Intelligent and Scalable</h3>
-    <h3></h3>
-      
+<LayoutBase>  
       <main>
+        <h1>AI Developer | Chatbot, Assistant, Agents | With ChatGPT API </h1>
+            <h2>SERVERLESS CLOUD SOLUTIONS</h2>
+            <h3> Transforming Data in Experiences Intelligent and Scalable</h3>
           <section id="about">
               <h2>About Me</h2>
               <img src="profile_picture.jpg" alt="Profile Picture">
@@ -40,23 +19,17 @@
               <ul>
                   <li>Chatbot Development</li>
                   <li>Virtual Assistant Development</li>
-                  <li>Data Agents</li>
+                  <li>Agents Task Automation</li>
+                  <li>Serverless Cloud Solutions (Backend)</li>
+              </ul>
+          </section>
+          <section id="design">
+              <h2>Milestones</h2>
+              <ul>
+                  <li>Integration APIs, WebSocket</li>
                   <li>Data Ingestion</li>
                   <li>Data Indexation</li>
                   <li>Data Consultation Interface</li>
-                  <li>Serverless Cloud Solutions</li>
-                  
-              </ul>
-          </section>
-          <section id="experience">
-              <h2>Experience</h2>
-              <ul>
-                  <li>Development of chatbots and virtual assistants for various industries</li>
-                  <li>Implementation of task automation solutions for enterprise clients</li>
-                  <li>Design and deployment of serverless cloud solutions</li>
-                  <li>Integration of data ingestion and indexing services</li>
-                  <li>Creation of data consultation interfaces for data analytics and visualization</li>
-                  <li>Development of data agents for intelligent search and data retrieval</li>
               </ul>
           </section>
           <section id="skills">
@@ -66,15 +39,16 @@
                   <li>Natural Language Processing (NLP)</li>
                   <li>Large Language Model (LLM)</li>
                   <li>ChatGPT API</li>
-                  <li>Python</li>
-                  <li>LlamaIndex and LangChain</li>
+                  <li>Programming languages: Python and Javascript</li>
+                  <li>Framework: LlamaIndex, LangChain and AutoGen</li>
+                  <li>APIs RESTful, GraphQL, and WebSocket</li>
+                  <li>Cloud Function Lambda</li>
                   <li>Docker on serverless</li>
-                  <li>Cloud Function</li>
-                  <li>Event Orchestration and Routing Platform</li>
-                  <li>RESTful, GraphQL, and WebSocket APIs</li>
-                  <li>NoSQL, SQL, and Vector databases</li>
-                  <li>File Systems</li>
-                  <li>Load Balancing</li>
+                  <li>Event Orchestration and Routing services</li>
+                  <li>Brocker Pub/Sub and notification (API, Email, SMS and Movil)</li>
+                  <li>Databases Vector, SQL and NoSQL</li>
+                  <li>File Systems, Datawerhouse and Datalake</li>
+                  <li>Load Balancing and Networking</li>
               </ul>
           </section>
           <section id="contact">
@@ -84,5 +58,4 @@
               <p>Phone: [your phone number]</p>
           </section>
       </main>
-  </body>
-</html>
+</LayoutBase>
